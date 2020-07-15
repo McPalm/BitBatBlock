@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TerrainAtles
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 1695ae6484b38f94ea83492482a6d2e9, type: 3}
+    totalSpriteSurfaceArea: 4352
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -5062486230716756072, guid: ee959ba305313f44d934efc1d99742a3, type: 3}
+  - {fileID: -4684333735789482159, guid: ee959ba305313f44d934efc1d99742a3, type: 3}
+  - {fileID: -8377130690987618698, guid: ee959ba305313f44d934efc1d99742a3, type: 3}
+  - {fileID: 7223950226953391895, guid: ee959ba305313f44d934efc1d99742a3, type: 3}
+  - {fileID: -6833445872158455971, guid: ee959ba305313f44d934efc1d99742a3, type: 3}
+  - {fileID: 4099902767569298868, guid: ee959ba305313f44d934efc1d99742a3, type: 3}
+  - {fileID: 1625871961415548862, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
+  - {fileID: -1784029885981933243, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
+  - {fileID: 8884832284934023579, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
+  - {fileID: -924632438748215808, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
+  - {fileID: -543241123175671080, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
+  - {fileID: 7109439685513630590, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
+  - {fileID: 3679215070167982877, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
+  - {fileID: 5765329994484275766, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
+  - {fileID: 8400218443827868095, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
+  - {fileID: -1969742141680044015, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
+  - {fileID: -2729211883885369981, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Tiles_3
+  - Tiles_2
+  - Tiles_1
+  - Tiles_0
+  - Tiles_5
+  - Tiles_4
+  - SpecialBlocks_3
+  - SpecialBlocks_2
+  - SpecialBlocks_1
+  - SpecialBlocks_0
+  - SpecialBlocks_7
+  - SpecialBlocks_6
+  - SpecialBlocks_5
+  - SpecialBlocks_4
+  - SpecialBlocks_10
+  - SpecialBlocks_9
+  - SpecialBlocks_8
+  m_Tag: TerrainAtles
+  m_IsVariant: 0
