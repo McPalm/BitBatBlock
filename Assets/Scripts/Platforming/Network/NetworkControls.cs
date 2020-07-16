@@ -22,6 +22,8 @@ public class NetworkControls : NetworkBehaviour
     double lastUpdate;
     bool jumped = false;
 
+    double lastBoost;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +37,7 @@ public class NetworkControls : NetworkBehaviour
             InputToken = PlayerInput.InputToken;
             PlatformingCharacter.OnJump += () => jumped = true;
             FindObjectOfType<CameraFollow>().Follow = new Mobile[] { PlatformingCharacter };
+            PlatformingCharacter.OnStomp += PlatformingCharacter_OnStomp;
         }
         else
         {
@@ -44,7 +47,12 @@ public class NetworkControls : NetworkBehaviour
         }
     }
 
-    
+    private void PlatformingCharacter_OnStomp(PlatformingCharacter obj)
+    {
+        lastBoost = NetworkTime.time;
+        obj.GetComponent<NetworkControls>().CmdStomp(NetworkTime.time, obj.transform.position);
+    }
+
     private void FixedUpdate()
     {
         if (isLocalPlayer)
@@ -64,10 +72,6 @@ public class NetworkControls : NetworkBehaviour
         // nextForcedUpdate = Time.realtimeSinceStartup + MIN_REFRESH_DELAY;
     }
 
-    /*
-    private void PlatformingCharacter_OnJump() => CmdJomp();
-    [Command(channel= Channels.DefaultUnreliable)] void CmdJomp() => RpcJump();
-    [ClientRpc(channel = Channels.DefaultUnreliable)] void RpcJump() => OutputToken.PressJump();*/
 
     [Command(channel = Channels.DefaultUnreliable)] private void CmdSyncInput(float moveX, bool holdJump, Vector2 pos, Vector2 force, double time, bool jump) => RpcSyncInput(moveX, holdJump, pos, force, time, jump);
     [ClientRpc(channel = Channels.DefaultUnreliable)] private void RpcSyncInput(float moveX, bool holdJump, Vector2 pos, Vector2 force, double time, bool jump)
@@ -87,4 +91,12 @@ public class NetworkControls : NetworkBehaviour
             OutputToken.PressJump();
     }
 
+    [Command(channel = 2, ignoreAuthority = true)] private void CmdStomp(double time, Vector2 at) => RpcStomp(time, at);
+    [ClientRpc(channel = 2)] private void RpcStomp(double time, Vector2 at)
+    {
+        if(time > lastBoost)
+        {
+            PlatformingCharacter.Resimulate((float)(NetworkTime.time - time), at, stomp: true);
+        }
+    }
 }

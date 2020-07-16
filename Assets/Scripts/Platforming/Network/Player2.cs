@@ -9,15 +9,18 @@ public class Player2 : MonoBehaviour
 
     public Sprite Player2Sprite;
     public SpriteRenderer SpriteRenderer;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        var id = GetComponent<NetworkIdentity>();
-        if(id.isLocalPlayer == id.isServer)
-        {
-            SpriteRenderer.sprite = Player2Sprite;
-            playerNumber = 1;
-        }
+        FindObjectOfType<CharacterAssigner>().Assign(this);
+    }
+
+    public void Assign(int number, CharacterData data)
+    {
+        playerNumber = number;
+        SpriteRenderer.sprite = data.Sprite;
+        GetComponent<PlatformingCharacter>().Properties = data.PlatformingCharacterProperties;
     }
 }

@@ -24,4 +24,11 @@ public class InputToken
     float _jumpTimer = 0f;
     float _useTimer = 0f;
 
+    public InputSnapshot GetSnapshot() =>
+        new InputSnapshot
+        {
+            direction = Direction,
+            jumpHeld = JumpHeld,
+            jumpBufferTimer = _jumpTimer - Time.timeSinceLevelLoad,
+        };
 }

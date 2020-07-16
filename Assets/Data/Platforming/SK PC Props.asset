@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6bccfd80bcfb49e41a4822f2f8124298, type: 3}
-  m_Name: Bit PC Props
+  m_Name: SK PC Props
   m_EditorClassIdentifier: 
   AccelerationCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1.0052223
+      value: 1.961792
       inSlope: -0.0008430554
       outSlope: -0.0008430554
       tangentMode: 0
@@ -25,17 +25,17 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0.5195529
     - serializedVersion: 3
-      time: 6.0869102
-      value: 0.07409778
-      inSlope: -0.027699482
-      outSlope: -0.027699482
+      time: 4.8704567
+      value: 1.0238134
+      inSlope: -0.18574184
+      outSlope: -0.18574184
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
-      outWeight: 0.46223697
+      outWeight: 0.34826246
     - serializedVersion: 3
-      time: 11.639859
-      value: 0.019210238
+      time: 8.586769
+      value: 0.0024414062
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -45,19 +45,19 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  MaxSpeed: 12
-  Traction: 0.551
-  AirControl: 0.346
-  PeakAirControl: 0.581
+  MaxSpeed: 6
+  Traction: 1
+  AirControl: 0.885
+  PeakAirControl: 0.895
   Gravity: 30
-  JumpForce: 14
-  WalljumpForce: 10
-  HeadBonkForce: 0
-  PeakJumpGravity: 0.374
+  JumpForce: 16
+  WalljumpForce: 0
+  HeadBonkForce: 14
+  PeakJumpGravity: 0.511
   JumpCap: 0.785
-  airTurn: 0
-  slowfallTrottle: 0
-  slowfallSpeed: 30
-  MaxFallSpeed: 20
-  MaxWallslideSpeed: 2
+  airTurn: 1
+  slowfallTrottle: 0.05
+  slowfallSpeed: 3
+  MaxFallSpeed: 25
+  MaxWallslideSpeed: 30
   CyoteTime: 5
