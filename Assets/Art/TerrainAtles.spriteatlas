@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 1695ae6484b38f94ea83492482a6d2e9, type: 3}
-    totalSpriteSurfaceArea: 4352
+    totalSpriteSurfaceArea: 5888
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -63,7 +63,13 @@ SpriteAtlas:
   - {fileID: 7109439685513630590, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
   - {fileID: 3679215070167982877, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
   - {fileID: 5765329994484275766, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
+  - {fileID: 3299170311448879545, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
+  - {fileID: -7719001167235896806, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
+  - {fileID: -3130986550952971764, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
+  - {fileID: -5159400385431852405, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
+  - {fileID: -416047280818908302, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
   - {fileID: 8400218443827868095, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
+  - {fileID: -2259482058153175998, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
   - {fileID: -1969742141680044015, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
   - {fileID: -2729211883885369981, guid: d660d57f8845f674d86d1fb03156b908, type: 3}
   m_PackedSpriteNamesToIndex:
@@ -81,7 +87,13 @@ SpriteAtlas:
   - SpecialBlocks_6
   - SpecialBlocks_5
   - SpecialBlocks_4
+  - SpecialBlocks_16
+  - SpecialBlocks_14
+  - SpecialBlocks_15
+  - SpecialBlocks_12
+  - SpecialBlocks_13
   - SpecialBlocks_10
+  - SpecialBlocks_11
   - SpecialBlocks_9
   - SpecialBlocks_8
   m_Tag: TerrainAtles

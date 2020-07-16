@@ -35,6 +35,24 @@ TextureImporter:
   - first:
       213: 8400218443827868095
     second: SpecialBlocks_10
+  - first:
+      213: -2259482058153175998
+    second: SpecialBlocks_11
+  - first:
+      213: -5159400385431852405
+    second: SpecialBlocks_12
+  - first:
+      213: -416047280818908302
+    second: SpecialBlocks_13
+  - first:
+      213: -7719001167235896806
+    second: SpecialBlocks_14
+  - first:
+      213: -3130986550952971764
+    second: SpecialBlocks_15
+  - first:
+      213: 3299170311448879545
+    second: SpecialBlocks_16
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -372,6 +390,132 @@ TextureImporter:
       bones: []
       spriteID: fb17b0c1b22939470800000000000000
       internalID: 8400218443827868095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBlocks_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24459631a05b4a0e0800000000000000
+      internalID: -2259482058153175998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBlocks_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a22546fa02668b0800000000000000
+      internalID: -5159400385431852405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBlocks_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2739501d337e93af0800000000000000
+      internalID: -416047280818908302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBlocks_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a241ed55990e490800000000000000
+      internalID: -7719001167235896806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBlocks_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c023ce112508c84d0800000000000000
+      internalID: -3130986550952971764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBlocks_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1ec632be109cd20800000000000000
+      internalID: 3299170311448879545
       vertices: []
       indices: 
       edges: []

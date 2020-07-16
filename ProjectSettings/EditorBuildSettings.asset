@@ -26,5 +26,23 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stages/1-4-Switches.unity
     guid: 9a460c18d58e779498bebf54c5234dbc
+  - enabled: 1
+    path: Assets/Scenes/Stages/KillZones1.unity
+    guid: ed33d1933d2c9fe4d9b9f69e0998c922
+  - enabled: 1
+    path: Assets/Scenes/Stages/TrustFall.unity
+    guid: 992ec85bddfe7614a93530ec68324ed8
+  - enabled: 1
+    path: Assets/Scenes/Stages/SpecialMoves.unity
+    guid: 9f59cf9a4e8f25f44b5f9893ed81568d
+  - enabled: 1
+    path: Assets/Scenes/Stages/FindLove.unity
+    guid: b770c9a101ac4ea4ca21143940fa2544
+  - enabled: 1
+    path: Assets/Scenes/Stages/GatherHearts.unity
+    guid: bfc1e2f22b737974d8098477291972b5
+  - enabled: 1
+    path: Assets/Scenes/Stages/SplitUp.unity
+    guid: 90bea806062b5ec40ade24355f52318a
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 30d1514a28eacba4096d3db8a004fee3, type: 2}

@@ -29,10 +29,6 @@ public class CameraFollow : MonoBehaviour
     void FixedUpdate()
     {
         CameraOffsetRoot.localPosition = DesiredOffset;
-        ease = ease + .1f;
-        ease = Mathf.Clamp01(ease);
-        slowEase += .03f;
-        slowEase = Mathf.Clamp01(slowEase);
 
         Vector3 average = Vector3.zero;
         for(int i = 0; i < Follow.Length; i++)
@@ -55,7 +51,6 @@ public class CameraFollow : MonoBehaviour
     */
         transform.position = new Vector3(average.x, average.y);//Vector3.Lerp(transform.position,  new Vector3(x, y), Ease);
     }
-
 
     IEnumerator ShiftFocusRoutine(Vector2 direction)
     {

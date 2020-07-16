@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: TestScenes
   m_EditorClassIdentifier: 
   Scenes:
-  - 1-4-Switches
+  - KillZones1
   - 1-3
